@@ -1,0 +1,38 @@
+{
+    "name": "anthonygore/courses",
+    "autoload": {
+        "psr-4": {
+            "Anthonygore\\Courses\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Anthonygore\\Courses\\Tests\\": "tests"
+        }
+    },
+    "require": {
+        "statamic/cms": "^5.0",
+        "stillat/relationships": "^2.2"
+    },
+    "require-dev": {
+        "orchestra/testbench": "^9.0"
+    },
+    "config": {
+        "allow-plugins": {
+            "pixelfear/composer-dist-plugin": true
+        }
+    },
+    "extra": {
+        "statamic": {
+            "name": "Courses",
+            "description": "Courses addon"
+        },
+        "laravel": {
+            "providers": [
+                "Anthonygore\\Courses\\ServiceProvider"
+            ]
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
