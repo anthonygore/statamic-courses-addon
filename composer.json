@@ -1,5 +1,7 @@
 {
-    "name": "anthonygore/courses",
+    "name": "anthonygore/statmic-courses",
+    "description": "Online course addon for Statamic",
+    "type": "statamic-addon",
     "autoload": {
         "psr-4": {
             "Anthonygore\\Courses\\": "src"

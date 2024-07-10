@@ -1,23 +1,31 @@
-# Courses
+# Statamic Courses - Starter Kit
 
-> Courses is a Statamic addon that does something pretty neat.
+## Overview
+
+> If you want to create an online course using Statamic then this is for you!
+
+You'll need to add *both* of these packages to your Statamic project:
+
+- Statamic Courses Starter Kit (a free starter kit)
+- Statamic Courses Addon (a paid addon)
 
 ## Features
 
-This addon does:
+- Courses and lessons are entries allowing you to add any kind of content to your course (including video)
+- Unlimited courses, lessons, and students
+- Track student progress
+- A theme that can be completely customized for a unique course
+- Configurable enrollment flow so you can have free or paid courses, memberships, bundles, etc
 
-- This
-- And this
-- And even this
+And more.
 
-## How to Install
+Note that if you want paid courses you will have to add a payment integration yourself (a good option is [Laravel Cashier](https://laravel.com/docs/11.x/billing)).
 
-You can search for this addon in the `Tools > Addons` section of the Statamic control panel and click **install**, or run the following command from your project root:
+Also note that we don't (yet?) provide these features:
 
-``` bash
-composer require anthonygore/courses
-```
+- Quizzes
+- Certificates
 
-## How to Use
+## Getting started
 
-Here's where you can explain how to use this wonderful addon.
+Check the documentation for installation instructions.

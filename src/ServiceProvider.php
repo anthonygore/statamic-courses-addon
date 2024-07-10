@@ -28,7 +28,6 @@ class ServiceProvider extends AddonServiceProvider
             Route::statamic('/password/reset', 'auth.forgot_password', [])->middleware('guest');
             Route::statamic('/password/reset/{token}', 'auth.reset_password', [])->middleware('guest');
             Route::get('/complete_lesson/{lesson_id}', [LessonController::class, 'complete']);
-            Route::get('/enroll/{course_id}', [CourseController::class, 'enroll']);
         });
     }
 }
