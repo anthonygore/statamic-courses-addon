@@ -23,11 +23,11 @@ class ServiceProvider extends AddonServiceProvider
         );
 
         $this->registerWebRoutes(function () {
-            Route::statamic('/login', 'auth.login', [])->middleware('guest');
-            Route::statamic('/register', 'auth.register', [])->middleware('guest');
-            Route::statamic('/password/reset', 'auth.forgot_password', [])->middleware('guest');
-            Route::statamic('/password/reset/{token}', 'auth.reset_password', [])->middleware('guest');
-            Route::get('/complete_lesson/{lesson_id}', [LessonController::class, 'complete']);
+            Route::statamic('/login', 'auth.login', [])->name('courses.auth.login')->middleware('guest');
+            Route::statamic('/register', 'auth.register', [])->name('courses.auth.register')->middleware('guest');
+            Route::statamic('/password/reset', 'auth.forgot_password', [])->name('courses.auth.password_forgot')->middleware('guest');
+            Route::statamic('/password/reset/{token}', 'auth.reset_password', [])->name('courses.auth.password_reset')->middleware('guest');
+            Route::get('/complete_lesson/{lesson_id}', [LessonController::class, 'complete'])->name('courses.lesson.complete');
         });
     }
 }

@@ -1,4 +1,4 @@
-# Statamic Courses - Starter Kit
+# Statamic Courses - Addon
 
 ## Overview
 
@@ -11,18 +11,15 @@ You'll need to add *both* of these packages to your Statamic project:
 
 ## Features
 
-- Courses and lessons are entries allowing you to add any kind of content to your course (including video)
+- Courses and lessons are entries allowing you to customize the content of your course
 - Unlimited courses, lessons, and students
 - Track student progress
-- A theme that can be completely customized for a unique course
-- Configurable enrollment flow so you can have free or paid courses, memberships, bundles, etc
+- Antler views and tags allowing for flexible course design and UX
+- Configurable enrollment flow so you can have free or paid courses, memberships, etc
 
-And more.
+Note that we don't (yet?) provide these features out-of-the-box so if you want them you'll have to integrate them yourself:
 
-Note that if you want paid courses you will have to add a payment integration yourself (a good option is [Laravel Cashier](https://laravel.com/docs/11.x/billing)).
-
-Also note that we don't (yet?) provide these features:
-
+- Payments, subscriptions, etc
 - Quizzes
 - Certificates
 
