@@ -2,7 +2,7 @@
 
 ## Overview
 
-> If you want to create an online course using Statamic then this is for you!
+> If you want to create a simple yet customizable online course using Statamic then this is for you!
 
 You'll need to add *both* of these packages to your Statamic project:
 
@@ -11,16 +11,15 @@ You'll need to add *both* of these packages to your Statamic project:
 
 ## Features
 
-- Courses and lessons are entries allowing you to customize the content of your course
-- Unlimited courses, lessons, and students
-- Track student progress
-- Antler views and tags allowing for flexible course design and UX
+- Courses and lessons are customizable content types
+- Views are Antlers with custom tags allowing flexible design and UX
 - Configurable enrollment flow so you can have free or paid courses, memberships, etc
 
-Note that we don't (yet?) provide these features out-of-the-box so if you want them you'll have to integrate them yourself:
+Note that we don't (yet?) provide these features out-of-the-box so you'll have to integrate them yourself if you need them:
 
-- Payments, subscriptions, etc
+- Payments and billing
 - Quizzes
+- Assignments
 - Certificates
 
 ## Getting started
