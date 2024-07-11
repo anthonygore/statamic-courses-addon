@@ -2,17 +2,16 @@
 
 namespace Anthonygore\Courses;
 
-use Anthonygore\Courses\Http\Controllers\CourseController;
 use Anthonygore\Courses\Http\Controllers\LessonController;
+use Illuminate\Support\Facades\Route;
 use Statamic\Providers\AddonServiceProvider;
 use Stillat\Relationships\Support\Facades\Relate;
-use Illuminate\Support\Facades\Route;
 
 class ServiceProvider extends AddonServiceProvider
 {
     protected $tags = [
         \Anthonygore\Courses\Tags\CourseTag::class,
-        \Anthonygore\Courses\Tags\LessonTag::class
+        \Anthonygore\Courses\Tags\LessonTag::class,
     ];
 
     public function bootAddon()
