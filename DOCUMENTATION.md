@@ -46,7 +46,7 @@ A notable field in the lessons collection is `course`. You need to select one (a
 
 Students are simply Statamic users with the `student` role. 
 
-There are two notable fields on the user model:
+There are two notable fields on the user model for students:
 
 - `enrollments` an array of courses the student is enrolled in
 - `completed_lessons` an array of lessons the student has completed
@@ -224,3 +224,4 @@ Example:
     <button type="submit">Complete this lesson and continue</button>
 </form>
 ```
+
