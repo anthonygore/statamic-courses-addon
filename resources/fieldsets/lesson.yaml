@@ -1,0 +1,9 @@
+title: 'Statamic Courses Lesson Fieldset'
+fields:
+  - handle: course
+    field:
+      max_items: 1
+      collections:
+        - courses
+      type: entries
+      display: Course

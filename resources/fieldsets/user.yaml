@@ -1,0 +1,19 @@
+title: 'Statamic Courses User Fieldset'
+fields:
+  - handle: enrollments
+    field:
+      collections:
+        - courses
+      type: entries
+      display: Enrollments
+      if:
+        groups: 'contains students'
+  - handle: completed_lessons
+    field:
+      collections:
+        - lessons
+      type: entries
+      display: 'Completed lessons'
+      sortable: false
+      if:
+        groups: 'contains students'
