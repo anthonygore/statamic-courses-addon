@@ -33,10 +33,10 @@ class ServiceProvider extends AddonServiceProvider
     protected function registerRoutes()
     {
         $this->registerWebRoutes(function () {
-            Route::statamic('/login', 'statamic_courses.default.auth.login', [])->name('courses.auth.login')->middleware('guest');
-            Route::statamic('/register', 'statamic_courses.default.auth.register', [])->name('courses.auth.register')->middleware('guest');
-            Route::statamic('/password/reset', 'statamic_courses.default.auth.forgot_password', [])->name('courses.auth.password_forgot')->middleware('guest');
-            Route::statamic('/password/reset/{token}', 'statamic_courses.default.auth.reset_password', [])->name('courses.auth.password_reset')->middleware('guest');
+            Route::statamic('/login', 'courses.default.auth.login', [])->name('courses.auth.login')->middleware('guest');
+            Route::statamic('/register', 'courses.default.auth.register', [])->name('courses.auth.register')->middleware('guest');
+            Route::statamic('/password/reset', 'courses.default.auth.forgot_password', [])->name('courses.auth.password_forgot')->middleware('guest');
+            Route::statamic('/password/reset/{token}', 'courses.default.auth.reset_password', [])->name('courses.auth.password_reset')->middleware('guest');
             Route::get('/complete_lesson/{lesson_id}', [LessonController::class, 'complete'])->name('courses.lesson.complete');
         });
     }
