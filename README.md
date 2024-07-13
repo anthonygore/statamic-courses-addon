@@ -24,4 +24,4 @@ Note that we don't (yet?) provide these features out-of-the-box so you'll have t
 
 ## Getting started
 
-Check the documentation for installation instructions.
+Check the [documentation](https://github.com/anthonygore/statamic-courses-addon/blob/main/DOCUMENTATION.md) for installation instructions.
