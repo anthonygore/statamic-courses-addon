@@ -11,10 +11,9 @@ You'll need *both* of these packages in your Statamic project:
 
 ### Installing from scratch
 
-To create a Statamic project from scratch using the Courses starter kit:
+To create a Statamic project from scratch using the Courses starter kit and Statamic CLI:
 
 ```shell
-composer global require statamic/cli
 statamic new my-site anthonygore/courses-starter-kit
 ```
 
