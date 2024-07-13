@@ -35,7 +35,7 @@
             ]
         }
     },
-    "license": "UNLICENSED",
+    "license": "proprietary",
     "minimum-stability": "alpha",
     "prefer-stable": true
 }
