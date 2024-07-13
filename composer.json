@@ -1,5 +1,5 @@
 {
-    "name": "anthonygore/statmic-courses",
+    "name": "anthonygore/courses",
     "description": "Online course addon for Statamic",
     "type": "statamic-addon",
     "autoload": {
