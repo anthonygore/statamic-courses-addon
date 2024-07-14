@@ -6,8 +6,8 @@
 
 You'll need to add *both* of these packages to your Statamic project:
 
-- Statamic Courses Starter Kit (a free starter kit)
-- Statamic Courses Addon (a paid addon)
+- [Statamic Courses Starter Kit](https://statamic.com/starter-kits/anthony-gore/courses-starter-kit) (a free starter kit)
+- [Statamic Courses Addon](https://statamic.com/addons/anthony-gore/courses) (a paid addon)
 
 ## Features
  
@@ -24,4 +24,4 @@ Note that we don't (yet?) provide these features out-of-the-box so you'll have t
 
 ## Getting started
 
-Check the [documentation](https://github.com/anthonygore/statamic-courses-addon/blob/main/DOCUMENTATION.md) for installation instructions.
+Check the [documentation](https://statamic.com/addons/anthony-gore/courses/docs) for installation instructions.
