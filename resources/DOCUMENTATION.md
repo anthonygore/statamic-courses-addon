@@ -9,12 +9,14 @@ You'll need *both* of these packages in your Statamic project:
 
 > Note: by installing the starter kit you will automatically install the addon.
 
+You'll also need [Statamic Pro](https://statamic.com/pricing) license for your site since each student will be a user.
+
 ### Installing from scratch
 
 To create a Statamic project from scratch using the Courses starter kit and Statamic CLI:
 
 ```shell
-statamic new my-site anthonygore/statamic-courses-starter-kit
+statamic new mysite anthonygore/statamic-courses-starter-kit
 ```
 
 ### Add to an existing project
